@@ -73,8 +73,8 @@ function calculateSubscriptionInMonth(aData, sMonth, aMonth){
 
 app.get('/', function (req, res) {
     let aMonth = ["Jan", "Feb", "Mar", "April"];
-    if(!req.query.month) return res.status(400).json({"message": "Please provide month name."});
-    if(aMonth.indexOf(req.query.month)===-1) return res.status(400).json({"message": "Please provide specified month name."});
+    if(!req.query.month) return res.status(400).json({"message": "Please provide any one name of the month."+aMonth});
+    if(aMonth.indexOf(req.query.month)===-1) return res.status(400).json({"message": "Please provide specified month name."+aMonth});
     request(NLurl, (error, response, body) =>{
         console.log('error:', error); // Print the error if one occurred
         console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
