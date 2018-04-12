@@ -1,6 +1,8 @@
 # NL_API
 Run ``npm install`` to download node_module dependencies 
 then run ``npm start``
+
+
 Assignment of News Laundry
 
 Month Query = Jan, Feb, Mar, April.(One Month at a request)
