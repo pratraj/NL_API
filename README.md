@@ -5,10 +5,13 @@ Assignment of News Laundry
 Month Query = Jan, Feb, Mar, April.(One Month at a request)
 
 http://localhost:8080/?month=Mar
+
+or 
+
 http://thepratik.com/?month=Mar
 
-You will get the response like ``
-  {
+You will get the response like 
+``  {
     "status": "OK",
     "message": "Data found.",
     "subscription": {
@@ -18,11 +21,13 @@ You will get the response like ``
         "activeLiberator": 0,
         "activeGameChanger": 0
     }
-}
+}``
 
-``
 
 http://localhost:8080/?month=Feb
+
+or 
+
 http://thepratik.com/?month=Feb
 
 ``
