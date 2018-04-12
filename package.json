@@ -1,0 +1,25 @@
+{
+  "name": "nl_api",
+  "version": "1.0.0",
+  "description": "NL Assignment API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratraj/NL_API.git"
+  },
+  "author": "Pratik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratraj/NL_API/issues"
+  },
+  "homepage": "https://github.com/pratraj/NL_API#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "request": "^2.85.0"
+  }
+}
